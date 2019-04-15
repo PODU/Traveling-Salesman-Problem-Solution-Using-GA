@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Soft Computing & Optimization Algorithm</title>
+</head>
+<link rel="stylesheet" href="./css/w3.css">
+<link rel="stylesheet" href="./css/leaflet.css">
+<style>
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+</style>
+
+<body>
+	<div class="w3-row" style="min-width:100vw;min-height:10vh;">
+		<center>
+			<h1>Traveling Salesman Problem Solution Using Genetic Algorithms</h1>
+		</center>
+	</div>
+	<div class="w3-row" style="min-width:100vw;min-height:90vh;">
+		<div id="mapid" class="w3-threequarter" style="min-height:88vh;border: 1px solid black; border-radius: 5px;">
+
+		</div>
+		<div class="w3-quarter" style="min-height:88vh;border: 1px solid black; border-radius: 5px;padding-left: 10px;">
+			<div class="w3-row">
+				<h4>No. of Cities:- <span id="city">0</span></h4>
+			</div>
+			<div class="w3-row">
+				<h4>Generation:- <span id="gen">0</span></h4>
+			</div>
+			<div class="w3-row">
+				<h4>Mutation:- <span id="time">0</span></h4>
+			</div>
+			<div class="w3-row">
+				<h4>Best Score:- <span id="score">0</span></h4>
+			</div>
+			<div class="w3-row">
+				<center>
+				<div class="w3-row">
+						<button id="random" class="w3-button w3-half" style="background-color:antiquewhite;">Select Random<br> 10 Cities in the <br>World</button>
+						<button id="world" class="w3-button w3-half" style="background-color:orange;">Select Random<br>10 Countries in <br>the World</button>
+				</div>
+				<div class="w3-row">
+						<button id="india" class="w3-button w3-half" style="background-color:olive;color:white;">Select Random<br> 10 Cities in the <br>India</button>
+						<button id="pune" class="w3-button w3-half" style="background-color:violet;">Select Random<br> 10 Places in <br>Pune</button>
+				</div>
+				</center>
+			</div>
+			<div class="w3-row">
+				<button id="start" class="w3-button w3-green w3-margin-top w3-threequarter">Start</button>
+			</div>
+			<div class="w3-row">
+				<button id="stop" class="w3-button w3-red w3-margin-top w3-threequarter">Stop</button>
+			</div>
+			<div class="w3-row">
+				<button id="clear" class="w3-button w3-blue w3-margin-top w3-threequarter">Clear</button>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/leaflet.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+<script type="text/javascript" src="./js/algorithm.js"></script>
+<script type="text/javascript" src="./js/utils.js"></script>
+<script src="./js/data.js"></script>
+<script src="./js/all_countries.js"></script>
+<script src="./js/all_india_cities.js"></script>
+<script src="./js/pune_data.js"></script>
+</html>
