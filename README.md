@@ -7,6 +7,6 @@
 </p>
 <h2>Screen Shots</h2>
 <h4>Plotted Points<h4>
-  ![Plotted Points](https://github.com/PODU/Traveling-Salesman-Problem-Solution-Using-GA/blob/master/ScreenShots/1.png)
+  <img src="ScreenShots/1.png" height="500px" width="700px">
 <h4>Best Selected Path<h4>
-  ![Selected Path](https://github.com/PODU/Traveling-Salesman-Problem-Solution-Using-GA/blob/master/ScreenShots/2.png)
+  <img src="ScreenShots/2.png" height="500px" width="700px">
